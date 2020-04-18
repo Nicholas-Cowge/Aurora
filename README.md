@@ -7,7 +7,7 @@
 
 Project Aurora is a utility that unifies RGB lighting devices across different brands and enables them to work alongside each other, all while adding and improving RGB lighting support for various games that previous had none or little RGB lighting support. Aurora is mainly written in C#, but has C++ components to implement native support for other games.
 
-This version has a small modification that reduces flickering on zoned RGB keyboards, such as the G213. To use this, simply set "Bitmap Accuracy/Ratio" to "Zoned". This causes a *very* low resolution bitmap to be sent to the keyboard API. **ALL EFFECTS WILL NEED SERIOUS ADJUSTMENT. USE THE BITMAP WINDOW AS A REFERENCE.**
+This version has "improved" sampling for zoned RGB keyboards. If you are having problems with flickering on your G213, this should fix it.
 
 Have a look at our [website](https://www.project-aurora.com/) for a better look at Aurora and its features!
 
