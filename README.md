@@ -1,4 +1,4 @@
-# Aurora - Unified Lighting Effects (G213 optimized)
+# Aurora - Unified Lighting Effects (Zoned RGB optimized)
 ![Aurora Logo](http://i.imgur.com/ZkxyAyp.png)
 
 [Link to Aurora's webpage, includes some demos and changelogs](http://project-aurora.com/)
