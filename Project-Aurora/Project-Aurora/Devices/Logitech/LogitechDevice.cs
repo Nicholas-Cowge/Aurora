@@ -540,80 +540,33 @@ namespace Aurora.Devices.Logitech
                         else if (localKey != Logitech_keyboardBitmapKeys.UNKNOWN)
                         {
                             //left
-                            if ((localKey == Logitech_keyboardBitmapKeys.ESC /*|| localKey == Logitech_keyboardBitmapKeys.LEFT_FN*/ || localKey == Logitech_keyboardBitmapKeys.TILDE
-                                || localKey == Logitech_keyboardBitmapKeys.TAB
-                                || localKey == Logitech_keyboardBitmapKeys.CAPS_LOCK || localKey == Logitech_keyboardBitmapKeys.LEFT_SHIFT
-                                || localKey == Logitech_keyboardBitmapKeys.LEFT_CONTROL || localKey == Logitech_keyboardBitmapKeys.F1
-                                || localKey == Logitech_keyboardBitmapKeys.ONE || localKey == Logitech_keyboardBitmapKeys.Q
-                                || localKey == Logitech_keyboardBitmapKeys.A || localKey == Logitech_keyboardBitmapKeys.Z
-                                || localKey == Logitech_keyboardBitmapKeys.LEFT_WINDOWS || localKey == Logitech_keyboardBitmapKeys.F2
-                                || localKey == Logitech_keyboardBitmapKeys.W || localKey == Logitech_keyboardBitmapKeys.S || localKey == Logitech_keyboardBitmapKeys.X
-                                || localKey == Logitech_keyboardBitmapKeys.LEFT_ALT
-                                || localKey == Logitech_keyboardBitmapKeys.F3 || localKey == Logitech_keyboardBitmapKeys.THREE)
+                            if ((localKey == Logitech_keyboardBitmapKeys.S)
                                 && (key.Value.R >= 0 || key.Value.G >= 0 || key.Value.B >= 0))
                             {
                                 leftColor.Add(key.Value);
                             }
                             //right
-                            else if ((localKey == Logitech_keyboardBitmapKeys.F11
-                                || localKey == Logitech_keyboardBitmapKeys.BACKSPACE
-                                || localKey == Logitech_keyboardBitmapKeys.APOSTROPHE || localKey == Logitech_keyboardBitmapKeys.RIGHT_SHIFT
-                                || localKey == Logitech_keyboardBitmapKeys.F6 || localKey == Logitech_keyboardBitmapKeys.SIX || localKey == Logitech_keyboardBitmapKeys.T
-                                || localKey == Logitech_keyboardBitmapKeys.G || localKey == Logitech_keyboardBitmapKeys.B
-                                || localKey == Logitech_keyboardBitmapKeys.MINUS
-                                || localKey == Logitech_keyboardBitmapKeys.FORWARD_SLASH || localKey == Logitech_keyboardBitmapKeys.ENTER
-                                || localKey == Logitech_keyboardBitmapKeys.RIGHT_CONTROL || localKey == Logitech_keyboardBitmapKeys.CLOSE_BRACKET)
+                            else if ((localKey == Logitech_keyboardBitmapKeys.N)
                                 && (key.Value.R >= 0 || key.Value.G >= 0 || key.Value.B >= 0))
                             {
                                 rightColor.Add(key.Value);
                             }
                             //center
-                            else if ((localKey == Logitech_keyboardBitmapKeys.Y || localKey == Logitech_keyboardBitmapKeys.H || localKey == Logitech_keyboardBitmapKeys.B
-                                || localKey == Logitech_keyboardBitmapKeys.U || localKey == Logitech_keyboardBitmapKeys.J || localKey == Logitech_keyboardBitmapKeys.SEMICOLON
-                                || localKey == Logitech_keyboardBitmapKeys.N || localKey == Logitech_keyboardBitmapKeys.I || localKey == Logitech_keyboardBitmapKeys.K
-                                || localKey == Logitech_keyboardBitmapKeys.M || localKey == Logitech_keyboardBitmapKeys.O || localKey == Logitech_keyboardBitmapKeys.PERIOD
-                                || localKey == Logitech_keyboardBitmapKeys.L || localKey == Logitech_keyboardBitmapKeys.COMMA || localKey == Logitech_keyboardBitmapKeys.LEFT_ALT
-                                || localKey == Logitech_keyboardBitmapKeys.F8 || localKey == Logitech_keyboardBitmapKeys.F9
-                                || localKey == Logitech_keyboardBitmapKeys.F10 || localKey == Logitech_keyboardBitmapKeys.F11 || localKey == Logitech_keyboardBitmapKeys.EIGHT
-                                || localKey == Logitech_keyboardBitmapKeys.NINE || localKey == Logitech_keyboardBitmapKeys.ZERO
-                                || localKey == Logitech_keyboardBitmapKeys.RIGHT_CONTROL || localKey == Logitech_keyboardBitmapKeys.RIGHT_ALT
-                                || localKey == Logitech_keyboardBitmapKeys.BACKSLASH || localKey == Logitech_keyboardBitmapKeys.OPEN_BRACKET
-                                || localKey == Logitech_keyboardBitmapKeys.F4
-                                || localKey == Logitech_keyboardBitmapKeys.FOUR || localKey == Logitech_keyboardBitmapKeys.E || localKey == Logitech_keyboardBitmapKeys.D
-                                || localKey == Logitech_keyboardBitmapKeys.C
-                                || localKey == Logitech_keyboardBitmapKeys.F5 || localKey == Logitech_keyboardBitmapKeys.FIVE || localKey == Logitech_keyboardBitmapKeys.R
-                                || localKey == Logitech_keyboardBitmapKeys.F || localKey == Logitech_keyboardBitmapKeys.V
-                                || localKey == Logitech_keyboardBitmapKeys.F6 || localKey == Logitech_keyboardBitmapKeys.SIX || localKey == Logitech_keyboardBitmapKeys.T
-                                || localKey == Logitech_keyboardBitmapKeys.G || localKey == Logitech_keyboardBitmapKeys.B
-                                || localKey == Logitech_keyboardBitmapKeys.Y || localKey == Logitech_keyboardBitmapKeys.H || localKey == Logitech_keyboardBitmapKeys.SEVEN)
+                            else if ((localKey == Logitech_keyboardBitmapKeys.APOSTROPHE)
                                 && (key.Value.R >= 0 || key.Value.G >= 0 || key.Value.B >= 0))
                             {
                                 centerColor.Add(key.Value);
                             }
 
                             //arrow
-                            else if ((localKey == Logitech_keyboardBitmapKeys.PRINT_SCREEN || localKey == Logitech_keyboardBitmapKeys.SCROLL_LOCK
-                                || localKey == Logitech_keyboardBitmapKeys.PAUSE_BREAK || localKey == Logitech_keyboardBitmapKeys.INSERT
-                                || localKey == Logitech_keyboardBitmapKeys.HOME || localKey == Logitech_keyboardBitmapKeys.PAGE_UP
-                                || localKey == Logitech_keyboardBitmapKeys.KEYBOARD_DELETE || localKey == Logitech_keyboardBitmapKeys.END
-                                || localKey == Logitech_keyboardBitmapKeys.PAGE_DOWN || localKey == Logitech_keyboardBitmapKeys.ARROW_UP
-                                || localKey == Logitech_keyboardBitmapKeys.ARROW_DOWN || localKey == Logitech_keyboardBitmapKeys.ARROW_LEFT
-                                || localKey == Logitech_keyboardBitmapKeys.ARROW_RIGHT)
+                            else if ((localKey == Logitech_keyboardBitmapKeys.END)
                                 && (key.Value.R >= 0 || key.Value.G >= 0 || key.Value.B >= 0))
                             {
                                 arrowColor.Add(key.Value);
                             }
 
                             //numpad
-                            else if (localKey == Logitech_keyboardBitmapKeys.NUM_ASTERISK || localKey == Logitech_keyboardBitmapKeys.NUM_EIGHT
-                                || localKey == Logitech_keyboardBitmapKeys.NUM_ENTER || localKey == Logitech_keyboardBitmapKeys.NUM_FIVE
-                                || localKey == Logitech_keyboardBitmapKeys.NUM_FOUR || localKey == Logitech_keyboardBitmapKeys.NUM_LOCK
-                                || localKey == Logitech_keyboardBitmapKeys.NUM_MINUS || localKey == Logitech_keyboardBitmapKeys.NUM_NINE
-                                || localKey == Logitech_keyboardBitmapKeys.NUM_ONE || localKey == Logitech_keyboardBitmapKeys.NUM_PERIOD
-                                || localKey == Logitech_keyboardBitmapKeys.NUM_PLUS || localKey == Logitech_keyboardBitmapKeys.NUM_SEVEN
-                                || localKey == Logitech_keyboardBitmapKeys.NUM_SIX || localKey == Logitech_keyboardBitmapKeys.NUM_SLASH
-                                || localKey == Logitech_keyboardBitmapKeys.NUM_THREE || localKey == Logitech_keyboardBitmapKeys.NUM_TWO
-                                || localKey == Logitech_keyboardBitmapKeys.NUM_ZERO /*|| localKey == Logitech_keyboardBitmapKeys.NUM_ZEROZERO)*/
+                            else if (localKey == Logitech_keyboardBitmapKeys.NUM_FIVE /*|| localKey == Logitech_keyboardBitmapKeys.NUM_ZEROZERO)*/
                                 && (key.Value.R >= 0 || key.Value.G >= 0 || key.Value.B >= 0))
                             {
                                 numpadColor.Add(key.Value);
