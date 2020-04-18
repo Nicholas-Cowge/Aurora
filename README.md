@@ -1,4 +1,4 @@
-# Aurora - Unified Lighting Effects
+# Aurora - Unified Lighting Effects (G213 optimized)
 ![Aurora Logo](http://i.imgur.com/ZkxyAyp.png)
 
 [Link to Aurora's webpage, includes some demos and changelogs](http://project-aurora.com/)
@@ -6,6 +6,8 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors-) [![Latest Version](https://img.shields.io/github/release/antonpup/aurora.svg)](https://github.com/antonpup/Aurora/releases/latest) [![Total Downloads](https://img.shields.io/github/downloads/antonpup/aurora/total.svg)](https://github.com/antonpup/Aurora/releases/latest) [![Build status](https://ci.appveyor.com/api/projects/status/jh44k7r5ewelxiss/branch/dev?svg=true)](https://ci.appveyor.com/project/antonpup/aurora/branch/dev) ![Build status](https://img.shields.io/badge/language-C%23-178600.svg)
 
 Project Aurora is a utility that unifies RGB lighting devices across different brands and enables them to work alongside each other, all while adding and improving RGB lighting support for various games that previous had none or little RGB lighting support. Aurora is mainly written in C#, but has C++ components to implement native support for other games.
+
+This version has a small modification that reduces flickering on zoned RGB keyboards, such as the G213. To use this, simply set "Bitmap Accuracy/Ratio" to "Zoned". This causes a *very* low resolution bitmap to be sent to the keyboard API. **ALL EFFECTS WILL NEED SERIOUS ADJUSTMENT. USE THE BITMAP WINDOW AS A REFERENCE.**
 
 Have a look at our [website](https://www.project-aurora.com/) for a better look at Aurora and its features!
 
