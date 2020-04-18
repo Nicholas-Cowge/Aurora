@@ -367,7 +367,8 @@ namespace Aurora.Settings
         Great = 3,
         Good = 6,
         Okay = 9,
-        Fine = 12
+        Fine = 12,
+	Zoned = 80
     }
 
     public class Configuration : Settings
