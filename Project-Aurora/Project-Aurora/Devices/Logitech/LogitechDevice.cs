@@ -546,13 +546,13 @@ namespace Aurora.Devices.Logitech
                                 leftColor.Add(key.Value);
                             }
                             //right
-                            else if ((localKey == Logitech_keyboardBitmapKeys.N)
+                            else if ((localKey == Logitech_keyboardBitmapKeys.APOSTROPHE)
                                 && (key.Value.R >= 0 || key.Value.G >= 0 || key.Value.B >= 0))
                             {
                                 rightColor.Add(key.Value);
                             }
                             //center
-                            else if ((localKey == Logitech_keyboardBitmapKeys.APOSTROPHE)
+                            else if ((localKey == Logitech_keyboardBitmapKeys.N)
                                 && (key.Value.R >= 0 || key.Value.G >= 0 || key.Value.B >= 0))
                             {
                                 centerColor.Add(key.Value);
